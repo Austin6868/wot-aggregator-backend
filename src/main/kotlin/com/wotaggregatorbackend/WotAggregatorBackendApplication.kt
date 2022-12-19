@@ -1,4 +1,4 @@
-package com.example.wotaggregatorbackend
+package com.wotaggregatorbackend
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
@@ -12,4 +12,3 @@ class WotAggregatorBackendApplication
 fun main(args: Array<String>) {
     runApplication<WotAggregatorBackendApplication>(*args)
 }
-data class Message(val id: String?, val text: String)

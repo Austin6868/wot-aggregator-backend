@@ -1,4 +1,4 @@
-package com.example.wotaggregatorbackend
+package com.wotaggregatorbackend.wotaggregatorcontrollers
 
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.data.annotation.Id
@@ -20,3 +20,4 @@ class MessageResource() {
         Message("get player id ", url),
     )
 }
+data class Message(val id: String?, val text: String)
