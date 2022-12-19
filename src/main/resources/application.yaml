@@ -1,0 +1,7 @@
+wotapis:
+  appid: "8465fbee5b1a33d150669e147c6e2234"
+  endpoints:
+    searchPlayer: "https://api.worldoftanks.com/wot/account/list/"
+
+server:
+  port : 8081
