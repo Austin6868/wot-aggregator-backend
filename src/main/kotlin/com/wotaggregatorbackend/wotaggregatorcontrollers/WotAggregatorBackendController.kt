@@ -12,7 +12,7 @@ class MessageResource() {
     @Value("\${wotapis.endpoints.searchplayer}")
     lateinit var url: String
 
-    @GetMapping
+    @GetMapping("/")
     fun index(): List<Message> = listOf(
         Message("1", "Hello!"),
         Message("2", "Bonjour!"),
